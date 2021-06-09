@@ -1,7 +1,7 @@
-package com.example.backend.config;
+package com.twg.backend.config;
 
-import com.example.backend.repository.DepartmentHoursRepository;
-import com.example.backend.repository.DepartmentRepository;
+import com.twg.backend.repository.DepartmentHoursRepository;
+import com.twg.backend.repository.DepartmentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.event.ContextRefreshedEvent;

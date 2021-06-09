@@ -1,6 +1,4 @@
-package com.example.backend.domain.department;
-
-import com.fasterxml.jackson.annotation.JsonIgnore;
+package com.twg.backend.domain.department;
 
 import javax.persistence.*;
 

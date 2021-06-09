@@ -1,6 +1,6 @@
-package com.example.backend.repository;
+package com.twg.backend.repository;
 
-import com.example.backend.domain.department.Department;
+import com.twg.backend.domain.department.Department;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

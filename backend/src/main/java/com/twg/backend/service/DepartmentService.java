@@ -1,9 +1,8 @@
-package com.example.backend.service;
+package com.twg.backend.service;
 
-import com.example.backend.domain.department.Department;
-import com.example.backend.domain.department.DepartmentHours;
-import com.example.backend.repository.DepartmentHoursRepository;
-import com.example.backend.repository.DepartmentRepository;
+import com.twg.backend.domain.department.Department;
+import com.twg.backend.repository.DepartmentHoursRepository;
+import com.twg.backend.repository.DepartmentRepository;
 import org.springframework.stereotype.Service;
 
 @Service

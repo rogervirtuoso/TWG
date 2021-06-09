@@ -1,13 +1,9 @@
-package com.example.backend.domain.department;
-
-import org.hibernate.annotations.LazyCollection;
-import org.hibernate.annotations.LazyCollectionOption;
+package com.twg.backend.domain.department;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotBlank;
 import java.io.Serializable;
 import java.util.Collection;
-import java.util.List;
 
 @Entity
 public class Department implements Serializable {
