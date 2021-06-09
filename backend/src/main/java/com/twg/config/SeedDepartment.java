@@ -33,13 +33,13 @@ public class SeedDepartment {
         DepartmentHours meetings = populateDepartmentHours(stockroom_department, "Meetings", 0.6D, 0.6D, 0.6D, 0.6D, 0.6D, 0.6D, 0.6D);
         departmentHoursRepository.save(meetings);
         DepartmentHours scanning = populateDepartmentHours(stockroom_department, "Scanning",
-            0.05D * DepartmentHours.ItemDistributionCentre.SUNDAY.getValue(),
-            0.05D * DepartmentHours.ItemDistributionCentre.MONDAY.getValue(),
-            0.05D * DepartmentHours.ItemDistributionCentre.TUESDAY.getValue(),
-            0.05D * DepartmentHours.ItemDistributionCentre.WEDNESDAY.getValue(),
-            0.05D * DepartmentHours.ItemDistributionCentre.THURSDAY.getValue(),
-            0.05D * DepartmentHours.ItemDistributionCentre.FRIDAY.getValue(),
-            0.05D * DepartmentHours.ItemDistributionCentre.SATURDAY.getValue());
+            0.0014D * DepartmentHours.ItemDistributionCentre.SUNDAY.getValue(),
+            0.0014D * DepartmentHours.ItemDistributionCentre.MONDAY.getValue(),
+            0.0014D * DepartmentHours.ItemDistributionCentre.TUESDAY.getValue(),
+            0.0014D * DepartmentHours.ItemDistributionCentre.WEDNESDAY.getValue(),
+            0.0014D * DepartmentHours.ItemDistributionCentre.THURSDAY.getValue(),
+            0.0014D * DepartmentHours.ItemDistributionCentre.FRIDAY.getValue(),
+            0.0014D * DepartmentHours.ItemDistributionCentre.SATURDAY.getValue());
         departmentHoursRepository.save(scanning);
     }
 
