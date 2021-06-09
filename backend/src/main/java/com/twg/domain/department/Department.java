@@ -1,4 +1,4 @@
-package com.twg.backend.domain.department;
+package com.twg.domain.department;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotBlank;

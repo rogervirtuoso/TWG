@@ -1,7 +1,7 @@
-package com.twg.backend.controller;
+package com.twg.controller;
 
-import com.twg.backend.domain.department.Department;
-import com.twg.backend.service.DepartmentService;
+import com.twg.domain.department.Department;
+import com.twg.service.DepartmentService;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
